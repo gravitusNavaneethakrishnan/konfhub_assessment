@@ -1,0 +1,53 @@
+*React app Create*
+Install command = npx create-react-app konfhub_assessment
+
+*App run*
+Run command = npm start
+Run host = http://localhost:3000
+
+*react-helmet-async*
+Website link = https://www.npmjs.com/package/react-helmet-async
+Install command = npm i react-helmet-async
+
+*React Router DOM*
+Website link = https://www.npmjs.com/package/react-router-dom
+Install command = npm i react-router-dom
+
+*Materal UI*
+Website link = https://mui.com/material-ui/getting-started/installation/
+
+Default installation
+Install command = npm install @mui/material @emotion/react @emotion/styled
+
+With styled-components
+Install command = npm install @mui/material @mui/styled-engine-sc styled-components
+
+Montserrat font
+Install command = npm install @fontsource/Montserrat
+
+material icons
+Install command = npm install @mui/icons-material
+
+*prop-types*
+Website link = https://www.npmjs.com/package/prop-types
+Install command = npm i prop-types
+
+*react-scroll*
+Website link = https://www.npmjs.com/package/react-scroll
+Install command = npm i react-scroll
+
+*axios*
+Website link = https://www.npmjs.com/package/axios
+Install command = npm i axios
+
+*swr*
+Website link = https://swr.vercel.app/
+Install command = npm i swr
+
+*formik*
+Website link = https://www.npmjs.com/package/formik
+Install command = npm i formik
+
+*yup*
+Website link = https://www.npmjs.com/package/yup
+Install command = npm i yup
