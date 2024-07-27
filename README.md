@@ -52,7 +52,6 @@ Install command = npm i react-scroll
 
 ### axios*
 Website link = https://www.npmjs.com/package/axios
-//
 Install command = npm i axios
 
 ### swr
