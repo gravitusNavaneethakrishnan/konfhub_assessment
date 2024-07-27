@@ -88,6 +88,7 @@ const WorkShoppage = ({ data }) => {
                   tooltip_title='Dark Knight'
                   organiser_image={organiserImg}
                   organiser_image2={data.organiser_image_url}
+                  alt_organiser_image2='alt_organiser_image2'
                   tooltip_title2='Bruce Wayne'
                   imagestyle={{
                     borderRadius: '50%',

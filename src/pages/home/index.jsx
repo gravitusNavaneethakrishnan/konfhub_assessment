@@ -64,7 +64,7 @@ const HomePage = ({ data }) => {
             Make Your Events Engaging and Effective.
           </Typography>
           <Card sx={{ border: '1px solid #572148', backgroundColor: '#F7F7F7' }} >
-            <Stack spacing={2} p={2} pr={14}>
+            <Stack spacing={2} p={2} pr={4}>
               <Typography variant="h4">
                 {data.name} ✨
               </Typography>
@@ -185,9 +185,7 @@ const HomePage = ({ data }) => {
                       </a>
                     </Stack>
                   </Stack>
-
                 </Stack>
-
               </Stack>
             </Stack>
           </Card>
@@ -201,7 +199,7 @@ const HomePage = ({ data }) => {
               <a href={data.event_website} target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
                 Official website &nbsp;
               </a>
-              <OpenInNewIcon fontSize="12px"></OpenInNewIcon>
+              <OpenInNewIcon fontSize="12px" sx={{ color: '#572148' }}></OpenInNewIcon>
             </Button>
           </Stack>
 

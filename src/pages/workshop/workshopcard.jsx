@@ -7,7 +7,7 @@ import { useState } from 'react';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import CloseIcon from '@mui/icons-material/Close';
 
-const WorkshopCard = ({ workshopimg, workshop_topic, workshop_date, tooltip_title, organiser_image, tooltip_title2, imagestyle, organiser_image2, speaker, Speakers, Speakers2, link, link_content, link_icon }) => {
+const WorkshopCard = ({ workshopimg, workshop_topic, workshop_date, tooltip_title, organiser_image, alt_organiser_image2, tooltip_title2, imagestyle, organiser_image2, speaker, Speakers, Speakers2, link, link_content, link_icon }) => {
 
   const BootstrapTooltip = styled(({ className, ...props }) => (
     <Tooltip placement="top" {...props} arrow classes={{ popper: className }} />
@@ -74,7 +74,7 @@ const WorkshopCard = ({ workshopimg, workshop_topic, workshop_date, tooltip_titl
                 </BootstrapTooltip>
                 <BootstrapTooltip title={tooltip_title2}>
                   <img src={organiser_image2}
-                    alt="organiser_image_url2"
+                    alt={alt_organiser_image2}
                     style={
                       imagestyle
                     }
