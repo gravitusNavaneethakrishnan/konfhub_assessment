@@ -11,12 +11,12 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import VideocamIcon from '@mui/icons-material/Videocam';
 
 //asets
+import call_icon from '../../assets/call_icon.svg';
 import facebook_icon from '../../assets/facebook_icon.svg';
 import linkedin_icon from '../../assets/linkedin_icon.svg';
 import mail_icon from '../../assets/mail_icon.svg';
 import website_icon from '../../assets/website_icon.svg';
 import x_icon from '../../assets/x_icon.svg';
-
 
 const HomePage = ({ data }) => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -185,6 +185,8 @@ const HomePage = ({ data }) => {
                       >
                         <img src={mail_icon} alt="mail" width='24px' />
                       </a>
+
+                      <img src={call_icon} alt="mail" width='24px' />
                     </Stack>
                   </Stack>
                 </Stack>
