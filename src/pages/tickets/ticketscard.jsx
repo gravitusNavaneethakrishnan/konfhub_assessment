@@ -57,7 +57,7 @@ const TicketsCard = ({ ticketName, price, description, buttonText }) => {
         </Stack>
 
         <Stack pt={3} pb={2} p={2} textAlign='center' alignItems='center' justifyContent='center'>
-          <Button to="/" size="large" fullWidth variant="logInButton" component={RouterLink} >
+          <Button to="/ticket_purchase" size="large" fullWidth variant="logInButton" component={RouterLink} >
             {buttonText}
           </Button>
         </Stack>

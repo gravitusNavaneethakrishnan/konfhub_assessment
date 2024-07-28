@@ -49,7 +49,9 @@ const HomePage = ({ data }) => {
   const emailTo = 'mailto:' + data.organiser_email;
 
   return (
-    <Grid container pt={14} pb={{ lg: 16, md: 16, sm: 8, xs: 8, }} sx={{ backgroundColor: '#F7F7F7' }}>
+    <Grid container pt={14} pb={{ lg: 16, md: 16, sm: 8, xs: 8, }} sx={{ backgroundColor: '#F7F7F7' }}
+      alignItems='center'
+    >
       <Grid item lg={6} sm={12} md={6} xs={12} >
         <Stack spacing={2}
           justifyContent={{ lg: 'start', md: 'start', sm: 'center', xs: 'center', }}
@@ -190,7 +192,7 @@ const HomePage = ({ data }) => {
             </Stack>
           </Card>
 
-          <Stack pt={0} direction='row' spacing={2} justifyContent='space-between'>
+          <Stack pt={{ lg: 0, sm: 0, md: 0, xs: 2 }} direction='row' spacing={2} justifyContent='space-between'>
             <Button to="/signup" size="large" variant="secondaryButton" component={RouterLink} >
               Register
             </Button>
@@ -212,9 +214,10 @@ const HomePage = ({ data }) => {
         sm={12}
         md={6}
         xs={12}
-        pt={{ lg: 4, md: 16 }}
       >
-        <img src={data.poster_thumbnail} alt='event_poster_url' />
+        <Stack  >
+          <img src={data.poster_thumbnail} alt='event_poster_url' />
+        </Stack>
       </Grid>
     </Grid >
   );

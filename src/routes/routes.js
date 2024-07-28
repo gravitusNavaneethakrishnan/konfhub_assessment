@@ -16,6 +16,7 @@ import ForgetPassword from "../authentication/forgetpassword";
 import SignIn from "../authentication/signin";
 import SignUp from "../authentication/signup";
 import ErrorPage from "../pages/errorpage";
+import TicketPurchase from "../pages/tickets/ticketpurchase";
 
 function Router() {
 
@@ -41,7 +42,8 @@ function Router() {
         { path: '*', element: <Navigate to="/404" /> },
         { path: 'login', element: <SignIn /> },
         { path: 'signup', element: <SignUp /> },
-        { path: 'forgetpassword', element: <ForgetPassword /> }
+        { path: 'forgetpassword', element: <ForgetPassword /> },
+        { path: 'ticket_purchase', element: <TicketPurchase data={data} /> },
       ],
     },
 
