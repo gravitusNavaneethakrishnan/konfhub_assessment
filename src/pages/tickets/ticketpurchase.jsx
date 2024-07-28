@@ -1,30 +1,45 @@
-import { Box, Card, Grid, IconButton, Stack, Typography } from "@mui/material";
-import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
-import { styled } from '@mui/material/styles';
+import { React, useState } from "react";
 
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-
-import { Check } from "@mui/icons-material";
-import AddCircleIcon from '@mui/icons-material/AddCircle';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import DeleteIcon from '@mui/icons-material/Delete';
-import HighlightOffIcon from '@mui/icons-material/HighlightOff';
-import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
-import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
+//@mui
 import {
-  Button, CardActions,
+  Box,
+  Button,
+  Card,
+  CardActions,
   CardContent,
   CardHeader,
   Container,
-  Divider, Step, StepLabel, Stepper, TextField
+  Divider,
+  Grid, IconButton, Stack,
+  Step, StepLabel, Stepper, TextField,
+  Typography
 } from "@mui/material";
+import { styled } from '@mui/material/styles';
+
+
+//tooltip
+import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
+
+//icons
+import { Check } from "@mui/icons-material";
+import AddCircleIcon from '@mui/icons-material/AddCircle';
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import DeleteIcon from '@mui/icons-material/Delete';
+import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
+import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
+
+//stepper
 import StepConnector, { stepConnectorClasses } from '@mui/material/StepConnector';
 import PropTypes from "prop-types";
-import { React, useState } from "react";
+
+//router
 import { Navigate, useNavigate } from "react-router-dom";
-//icons
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+
+//files
 import AttendeeForm from "./attendeeform";
 import PaymentScreen from "./payment";
 
@@ -182,7 +197,7 @@ const TicketPurchase = ({ data }) => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
-  //
+  // ticketpick
   const [ticketCount, setTicketCount] = useState(0);
   const [freeTicketCount, setFreeTicketCount] = useState(0);
   const [donationAmount, setDonationAmount] = useState('');
