@@ -39,7 +39,7 @@ function Page404() {
             <img src={page404} alt='page404' width='35%' height='35%' />
 
 
-            <Button to="/" size="large" variant="primaryButton" component={RouterLink}>
+            <Button to="/" size="large" variant="page404Button" component={RouterLink}>
               Go to Home
             </Button>
           </StyledContent>

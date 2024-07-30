@@ -142,6 +142,32 @@ function Button(theme) {
             background: '#572148',
           },
         },
+        //
+        page404Button: {
+          border: '1px solid #FB5850',
+          borderRadius: '8px',
+          background: '#FB5850',
+          height: '47px',
+          color: ' #FFF',
+          textAlign: 'center',
+          fontFamily: 'Manrope,sans-serif',
+          fontSize: '16px',
+          fontWeight: '400',
+          maxWidth: '237px',
+
+          '@media (min-width: 768px)': {
+            width: '273px',
+          },
+          '@media (min-width: 600px)': {
+            width: '180px',
+          },
+          '@media (min-width: 1200px)': {
+            width: '273px',
+          },
+          '&:hover': {
+            background: '#FB5850',
+          },
+        },
         viewprojectbutton: {
           borderRadius: '30px',
           background: 'transparent',
