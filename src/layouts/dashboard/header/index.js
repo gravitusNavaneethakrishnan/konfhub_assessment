@@ -64,7 +64,7 @@ function Header({ data }) {
               <ScrollLink
                 spy
                 smooth
-                offset={-100}
+                offset={-85}
                 to="home"
                 duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                 <Typography variant='body1' sx={{ color: '#000' }}>
@@ -77,7 +77,7 @@ function Header({ data }) {
                 to="about"
                 spy
                 smooth
-                offset={-100}
+                offset={-85}
                 duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                 <Typography variant='body1' sx={{ color: '#000' }}>
                   About
@@ -89,7 +89,7 @@ function Header({ data }) {
                 to="tickets"
                 spy
                 smooth
-                offset={-100}
+                offset={-85}
                 duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                 <Typography variant='body1' sx={{ color: '#000' }}>
                   Tickets
@@ -101,7 +101,7 @@ function Header({ data }) {
                 to="speakers"
                 spy
                 smooth
-                offset={-100}
+                offset={-85}
                 duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                 <Typography variant='body1' sx={{ color: '#000' }}>
                   Speakers
@@ -113,7 +113,7 @@ function Header({ data }) {
                 to="workshop"
                 spy
                 smooth
-                offset={-100}
+                offset={-85}
                 duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                 <Typography variant='body1' sx={{ color: '#000' }}>
                   Workshops
@@ -125,7 +125,7 @@ function Header({ data }) {
                 to="sponsors"
                 spy
                 smooth
-                offset={-100}
+                offset={-85}
                 duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                 <Typography variant='body1' sx={{ color: '#000' }}>
                   Sponsors
@@ -192,6 +192,9 @@ function Header({ data }) {
           <ListItem>
             <ScrollLink
               to="about"
+              spy
+              smooth
+              offset={-85}
               duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
               <Typography button onClick={toggleMobileDrawer} variant='body1' sx={{ color: '#000' }}>
                 About
@@ -201,6 +204,9 @@ function Header({ data }) {
           <ListItem>
             <ScrollLink
               to="tickets"
+              spy
+              smooth
+              offset={-85}
               duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
               <Typography button onClick={toggleMobileDrawer} variant='body1' sx={{ color: '#000' }}>
                 Tickets
@@ -210,6 +216,9 @@ function Header({ data }) {
           <ListItem>
             <ScrollLink
               to="speakers"
+              spy
+              smooth
+              offset={-85}
               duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
               <Typography button onClick={toggleMobileDrawer} variant='body1' sx={{ color: '#000' }}>
                 Speakers
@@ -219,6 +228,9 @@ function Header({ data }) {
           <ListItem>
             <ScrollLink
               to="workshop"
+              spy
+              smooth
+              offset={-85}
               duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
               <Typography button onClick={toggleMobileDrawer} variant='body1' sx={{ color: '#000' }}>
                 workshops
@@ -228,6 +240,9 @@ function Header({ data }) {
           <ListItem>
             <ScrollLink
               to="sponsors"
+              spy
+              smooth
+              offset={-85}
               duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
               <Typography button onClick={toggleMobileDrawer} variant='body1' sx={{ color: '#000' }}>
                 Sponsors
