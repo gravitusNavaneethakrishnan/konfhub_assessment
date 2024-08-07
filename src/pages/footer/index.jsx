@@ -29,7 +29,7 @@ const Footer = ({ data }) => {
                   to="home"
                   spy
                   smooth
-                  offset={-100}
+                  offset={-85}
                   duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                   <Typography variant='body1' sx={{
                     '&:hover': {
@@ -44,7 +44,7 @@ const Footer = ({ data }) => {
                   to="about"
                   spy
                   smooth
-                  offset={-100}
+                  offset={-85}
                   duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                   <Typography variant='body1' sx={{
                     '&:hover': {
@@ -59,7 +59,7 @@ const Footer = ({ data }) => {
                   to="tickets"
                   spy
                   smooth
-                  offset={-100}
+                  offset={-85}
                   duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                   <Typography variant='body1' sx={{
                     '&:hover': {
@@ -74,7 +74,7 @@ const Footer = ({ data }) => {
                   to="speakers"
                   spy
                   smooth
-                  offset={-100}
+                  offset={-85}
                   duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                   <Typography variant='body1' sx={{
                     '&:hover': {
@@ -89,7 +89,7 @@ const Footer = ({ data }) => {
                   to="workshop"
                   spy
                   smooth
-                  offset={-100}
+                  offset={-85}
                   duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                   <Typography variant='body1' sx={{
                     '&:hover': {
@@ -104,7 +104,7 @@ const Footer = ({ data }) => {
                   to="sponsors"
                   spy
                   smooth
-                  offset={-100}
+                  offset={-85}
                   duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }} >
                   <Typography variant='body1' sx={{
                     '&:hover': {
